@@ -16,6 +16,7 @@
         pkgs.fd
 	pkgs.zellij
         pkgs.hello
+	pkgs.lazygit
 	pkgs.gh
 	pkgs.neovim
 	pkgs.joshuto
