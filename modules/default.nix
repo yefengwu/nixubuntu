@@ -11,16 +11,22 @@
         '';
       };
       systemPackages = [
-	pkgs.chezmoi
+        pkgs.chezmoi
         pkgs.ripgrep
         pkgs.fd
-	pkgs.zellij
+        pkgs.fzf
+        pkgs.fish
+        pkgs.zellij
         pkgs.hello
-	pkgs.lazygit
-	pkgs.gh
-	pkgs.neovim
-	pkgs.joshuto
-	pkgs.docker
+        pkgs.lazygit
+        pkgs.lua-language-server
+        pkgs.gh
+        pkgs.gcc6
+        pkgs.neovim
+        pkgs.joshuto
+        pkgs.docker
+        pkgs.starship
+        pkgs.zoxide
       ];
     };
 
