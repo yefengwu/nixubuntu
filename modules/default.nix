@@ -9,6 +9,7 @@
         "foo.conf".text = ''
           launch_the_rockets = true
         '';
+        "wsl.conf".source = ./wsl.conf; 
       };
       systemPackages = [
         pkgs.chezmoi
