@@ -23,6 +23,7 @@
         pkgs.lua-language-server
         pkgs.gh
         pkgs.gcc6
+        pkgs.nodejs_21
         pkgs.neovim
         pkgs.joshuto
         pkgs.docker
