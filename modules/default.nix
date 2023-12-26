@@ -12,23 +12,37 @@
         "wsl.conf".source = ./wsl.conf; 
       };
       systemPackages = [
+        pkgs.bat
         pkgs.chezmoi
+        pkgs.cifs-utils
+        pkgs.clang-tools
+        pkgs.delta
         pkgs.ripgrep
         pkgs.fd
         pkgs.fzf
         pkgs.fish
+        pkgs.fuse3
         pkgs.zellij
         pkgs.hello
         pkgs.lazygit
+        pkgs.lrzsz
+        pkgs.lzop
         pkgs.lua-language-server
         pkgs.gh
-        pkgs.gcc6
+        pkgs.git
+        pkgs.gnumake42
         pkgs.nodejs_21
+        pkgs.nodePackages_latest.bash-language-server
         pkgs.neovim
+        pkgs.nettools
         pkgs.joshuto
         pkgs.docker
+        pkgs.rclone
         pkgs.starship
+        pkgs.stylua
+        pkgs.tldr
         pkgs.zoxide
+        pkgs.xsel
       ];
     };
 
