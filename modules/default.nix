@@ -16,6 +16,7 @@
         pkgs.chezmoi
         pkgs.cifs-utils
         pkgs.clang-tools
+        pkgs.conda
         pkgs.delta
         pkgs.ripgrep
         pkgs.fd
@@ -24,10 +25,13 @@
         pkgs.fuse3
         pkgs.zellij
         pkgs.hello
+        pkgs.htop-vim
         pkgs.lazygit
+        pkgs.lazydocker
         pkgs.lrzsz
         pkgs.lzop
         pkgs.lua-language-server
+        pkgs.gdb
         pkgs.gh
         pkgs.git
         pkgs.gnumake42
@@ -36,17 +40,22 @@
         pkgs.neovim
         pkgs.nettools
         pkgs.joshuto
-        pkgs.docker
+        pkgs.openssh
+        pkgs.powertop
         pkgs.rclone
         pkgs.starship
         pkgs.stylua
         pkgs.tldr
+        pkgs.tree
         pkgs.zoxide
         pkgs.xsel
       ];
     };
 
     systemd.services = {
+        dockerd = {
+            enable = true;
+        };
       foo = {
         enable = true;
         serviceConfig = {
