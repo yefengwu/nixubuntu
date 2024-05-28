@@ -42,6 +42,7 @@
         pkgs.joshuto
         pkgs.openssh
         pkgs.powertop
+        pkgs.jq
         pkgs.rclone
         pkgs.starship
         pkgs.stylua
